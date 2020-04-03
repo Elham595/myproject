@@ -1,0 +1,43 @@
+*{box-sizing: border-box;}
+body{background-image: url('911.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+     color:white;
+      font-size: 100%;}
+/*********************** START NAVBAR **************************/
+nav{background-attachment:fixed; 
+margin-left:3%;
+padding-top: 1%; 
+}
+ul li{float:left; 
+      margin:10px;
+        padding:10px; 
+        font-size: 150%;}
+ul li:hover{background-color: rgba(146, 125, 130, 0.746);}     
+a{text-decoration:none;
+        color:white;
+        font-weight: bold;} 
+/*********************** END NAVBAR **************************/
+fieldset{width:25%; 
+        height:100%;
+        padding: 2%;
+        border-radius:4%;
+        margin-left:16%; 
+        margin-top:8%;
+        background-color:rgb(207, 187, 203);
+        box-shadow:10px 10px 5px #c9e7e7;}
+fieldset .help input{
+   margin-left: 1%;
+   margin-bottom: 2%;
+   font-size: 130%;
+   border:1px solid rgb(43, 5, 28); 
+   border-radius:43%;
+   background-color: #c9e7e7da;}
+fieldset .help .send{ font-size: 100%;
+                      text-transform: capitalize;
+                      color: rgb(102, 96, 96);
+                      background-color: #c049b0;
+                      padding: 2%;}  
+fieldset.help select{border:1px solid black;
+       border-radius:43%; 
+       padding:1%;}

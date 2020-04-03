@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+
+body{margin:0;}
+.container{width:1200px;
+            margin:auto;}
+/********************************** start header ****************************/
+header{height:700px; 
+    background-image:url('911.jpg'); 
+    background-repeat:no-repeat; 
+    background-size:cover; 
+    margin-bottom:50px;}
+.signup{position: absolute;
+        left: 18%;
+        top:50%;
+        color: white;
+        font-size: 125%;}
+.signup p{font-size: 115%;
+          margin-bottom: 10%;
+          color: #c9e7e7;}        
+.signup button{
+    padding: 3%;
+    margin: 1%;
+    background-color:rgb(247, 147, 168);
+    border-color: transparent;
+    border-radius: 45%;
+    font-size: 100%;
+    text-transform: capitalize;
+    color: rgb(102, 96, 96);
+}  
+.signup button a{color: #c9e7e7;}      
+
+/***************** start nav ***************/
+nav{background-attachment:fixed; 
+    margin-left:45%;
+    padding-top: 1%; 
+    }
+ul li{float:left; 
+    margin:10px;
+     padding:10px; 
+     font-size: 150%;
+     font-weight: bold;}
+ul li:hover{background-color: rgba(146, 125, 130, 0.746);}     
+a{text-decoration:none;
+     color:#b8e0e0;} 
+/**************end nav ********************/
+/********************************** end header *****************************/
+/****************** start section1 ****************/
+.section1{padding-bottom:100px;}
+.section1 .container{display:flex;}
+.section1image{width:75%;}
+img{width:600px; height:300px;}
+.innersection{width:25%;}
+.innersection h1{color:orange; }
+.innersection p{color:#1e8383;}
+.innersection h2{text-transform:uppercase;
+                color:#032a2a ;}
+.innersection button{color:white; background-color:orange; border:none;}
+/********************* end section1*******************/
+
+/******************* start section2******************/
+.section2{padding-bottom:100px;}
+.section2 .container{display:flex;}
+.innersection2{width:25%;}
+.innersection2 h1{color:orange; }
+.innersection2 p{color:#1e8383;}
+.innersection2 h2{text-transform:uppercase;
+                   color:#032a2a ;}
+.innersection2 button{color:white; background-color:orange; border:none; padding: 1%;}
+.section2image{width:75%;}
+img{width:800px; height:300px;}
+/****************** end section2 ****************/
+
+/******************* start section3******************/
+.section3{padding-bottom:100px;}
+.section3 .container{display:flex;}
+.section3image{width:75%;}
+img{width:800px; height:400px;}
+.innersection3{width:25%;}
+.innersection3 h1{color:orange; }
+.innersection3 p{color:#1e8383;}
+.innersection3 h2{text-transform:uppercase;
+                     color:#032a2a ;}
+.innersection3 button{color:white; background-color:orange; border:none;}
+/****************** end section3 ****************/
+
+p{text-align:center; font-size:20px;}
+/************************************** FOOTER *************************************/
+footer{height:60px; background-color:#9999ff; text-align:center; padding:30px; margin:0;}
+   
